@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1499224234997" clover="3.2.0">
-  <project timestamp="1499224234997" name="All files">
+<coverage generated="1499240767621" clover="3.2.0">
+  <project timestamp="1499240767621" name="All files">
     <metrics statements="40" coveredstatements="20" conditionals="10" coveredconditionals="2" methods="27" coveredmethods="13" elements="77" coveredelements="35" complexity="0" loc="40" ncloc="40" packages="1" files="5" classes="5">
       <file name="add-todo.js" path="D:\My_Github\JEST-Enzyme-with-React\app\add-todo.js">
         <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
