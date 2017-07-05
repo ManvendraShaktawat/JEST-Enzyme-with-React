@@ -8,7 +8,8 @@
     "watch:webpack": "webpack -w",
     "start:server": "live-server --port=8081",
     "start": "npm-run-all --parallel watch:webpack start:server",
-    "test": "jest"
+    "test": "jest --coverage",
+    "watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,11 @@
     "react": "15.3.2",
     "react-dom": "15.3.2",
     "shortid": "2.2.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "app/**/*.js"
+    ]
   },
   "devDependencies": {
     "babel-core": "6.14.0",
